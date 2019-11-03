@@ -351,7 +351,7 @@ Click the help icon above to learn more.
                 font-size: 2rem;
                 font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
                 text-transform: uppercase;
-                background-color: #C42128;
+                background-color: #ad2ff7;
                 color: white;
                 padding: 0.5rem 0;
                 margin: 0.5rem 0
@@ -376,7 +376,7 @@ Click the help icon above to learn more.
                 font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
                 text-transform: uppercase;
                 line-height: 3rem;
-                color: #C42128
+                color: #ad2ff7
             }
             
             .basketball-guide-2017-container header.guide-header .cover-story p.big-subheadline {
@@ -409,14 +409,14 @@ Click the help icon above to learn more.
             }
             
             .basketball-guide-2017-container section.guide-section {
-                margin-bottom: 2rem
+                margin-bottom: 0rem
             }
             
             .basketball-guide-2017-container section.guide-section header h3 {
                 font-size: 2rem;
                 font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
                 text-transform: uppercase;
-                /*background-color: #C42128;*/
+                /*background-color: #ad2ff7;*/
                 color: white;
                 padding: 0.5rem 0;
                 margin: 0.5rem 0
@@ -430,10 +430,11 @@ Click the help icon above to learn more.
             
             .basketball-guide-2017-container .story-box {
                 flex-grow: 1;
-                height: 600px;
+                /*height: 600px;
+                /*height: 100%;*/
                 /*background-color: white;*/
                 display: block;
-                /*border: 5px solid #C42128;*/
+                /*border: 5px solid #ad2ff7;*/
                 margin: 0.5rem 0.5rem;
                 overflow: hidden;
                 position: relative;
@@ -465,7 +466,7 @@ Click the help icon above to learn more.
             
             .basketball-guide-2017-container .story-box div.blurb h4,
             .basketball-guide-2017-container .story-box div.blurb p.description {
-                background-color: #C42128;
+                background-color: #ad2ff7;
                 padding: 0.25rem 0.5rem
             }
             
@@ -486,7 +487,7 @@ Click the help icon above to learn more.
             }
             
             .basketball-guide-2017-container p.read-button span {
-                background-color: #C42128;
+                background-color: #ad2ff7;
                 color: white;
                 text-transform: uppercase;
                 display: inline-block;
@@ -557,10 +558,10 @@ Click the help icon above to learn more.
                 /*https://www.gwhatchet.com/wp-content/uploads/2018/11/LandingPage_GS-2000x1340.jpg*/
                 background-image: url(https://www.gwhatchet.com/wp-content/uploads/2018/11/LandingPage_GS-2000x1340.jpg);
                 background-size: cover;
-                -webkit-transform-origin: center center 0;
+                /*-webkit-transform-origin: center center 0;
                 -webkit-transform: translateZ(-1px) scale(2);
                 transform-origin: center center 0;
-                transform: translateZ(-1px) scale(2);
+                transform: translateZ(-1px) scale(2);*/
                 z-index: -1;
                 min-height: 100vh;
             }
@@ -578,7 +579,7 @@ Click the help icon above to learn more.
                 font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
                 text-transform: uppercase;
                 line-height: 3rem;
-                color: #C42128;
+                color: #ad2ff7;
             }
 
             figure .big-subheadline {
@@ -607,36 +608,62 @@ Click the help icon above to learn more.
                 font-size: 20pt;
                 font-weight: 1000;
                 /*margin: 1rem 0 0.0rem 0;*/
-                margin-top: 0;
-                margin-bottom: 0;
+                margin-top: auto;
+                margin-bottom: 0.4em;
                 text-transform: uppercase;
-                line-height: 1.4;
+                line-height: 1.2;
                 color: white;
                 margin-left: 1em; 
                 margin-right: 1em; 
+                font-family: "Rockwell Bold", "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+
+
             }
 
 
+
             .basketball-guide-2019-story-excerpt {
-                color: #edcfcf; 
+                color: rgba(255, 255, 255, 0.7);
                 font-size: 14pt; 
                 line-height: 1.15; 
                 margin-left: 2em; 
                 margin-right: 2em;
-                margin-bottom: 0;
-                margin-top: 0;
-                font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+                margin-bottom: auto;
+                margin-top: auto;
+                font-family: "Rockwell", "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
+
  
             }
 
             .basketball-guide-2019-story-author {
-                color: #edcfcf; 
+                color: rgba(255, 255, 255, 0.7);
                 font-size: 12pt; 
                 line-height: 1.15; 
                 margin-left: 2em; 
                 margin-right: 2em; 
+                margin-bottom: auto;
                 font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Helvetica", sans-serif;
 
+            }
+
+            @media screen and (max-width: 600px) {
+                .basketball-guide-2019-story-title {
+                    font-size: 14pt;
+                    margin-left: 0.5em; 
+                    margin-right: 0.5em; 
+                }
+
+                .basketball-guide-2019-story-excerpt {
+                    font-size: 10pt; 
+                    margin-left: 0.5em; 
+                    margin-right: 0.5em; 
+                }
+
+                .basketball-guide-2019-story-author {
+                    font-size: 10pt; 
+                    margin-left: 1em; 
+                    margin-right: 1em; 
+                }
             }
 
             .basketball-guide-2019-button-subtitle {
@@ -654,6 +681,7 @@ Click the help icon above to learn more.
 
             .hover-button {
                 transition: .5s ease;
+                width: calc(50% - 1.0rem);
             }
 
             .hover-button:hover {
@@ -663,13 +691,59 @@ Click the help icon above to learn more.
             .hover-button { cursor: pointer; }
 
 
+            a { cursor: pointer; }
+
+
             .read-background {
                 transition: .5s ease;
+                width: 55%;
             }
 
             .read-background:hover {
                 background-color: black;
             }
+
+            .backgroundBox {
+                transition: .5s ease;
+            }
+
+            .story-box:hover div {
+                opacity: 0.8;
+            }
+
+            .basketball-guide-2017-container {
+                padding-bottom: 2em;
+            }
+
+            @media screen and (max-width: 600px) {
+                .hover-button {
+                    width: calc(100% - 1.0rem);
+                    margin-bottom: 0.25rem;
+                    margin-top: 0.25rem;
+                }
+
+                .read-background {
+                    width: 100%;
+                }
+
+                .basketball-guide-2017-container {
+                    padding-bottom: 0em;
+                }
+
+                
+            }
+
+            @media screen and (max-width: 350px) {
+                .big-headline {
+                    font-size: 2.5rem;
+                }
+            }
+
+            .read-button:hover .read-background {
+                opacity: 0.8;
+            }
+
+
 
         </style>
 
@@ -687,7 +761,7 @@ Click the help icon above to learn more.
               menSection.style.display = "flex"
               womenSection.style.display = "none"
 
-              menButton.style.backgroundColor = "#C42128"
+              menButton.style.backgroundColor = "#ad2ff7"
               womenButton.style.backgroundColor = "#666666"
 
               menSubtitle.textContent = "Selected"
@@ -708,7 +782,7 @@ Click the help icon above to learn more.
               womenSection.style.display = "flex"
 
               menButton.style.backgroundColor = "#666666"
-              womenButton.style.backgroundColor = "#C42128"
+              womenButton.style.backgroundColor = "#ad2ff7"
 
               menSubtitle.textContent = "Tap to View 7 Stories"
               womenSubtitle.textContent = "Selected"
@@ -717,7 +791,7 @@ Click the help icon above to learn more.
 
         <figure>
             <div style="width: 100%;" class="guide-container basketball-guide-2017-container">
-                <h1>Basketball Season Preview 2018-19</h1>
+                <h1>2019-20 Basketball Guide</h1>
             </div>
             <div style="background-color: white; padding: 16px 16px 32px 16px;" class="guide-container basketball-guide-2017-container">
                 <a href="https://www.gwhatchet.com/?p=1070752">
@@ -732,17 +806,17 @@ Click the help icon above to learn more.
             </div>
 
         </figure>
-        <div class="guide-container basketball-guide-2017-container">
+        <div class="guide-container basketball-guide-2017-container" >
  
             <section class="guide-section">
         
-                <section class="row">
-                        <header class="hover-button" id="MENS-BUTTON" onclick="showMen()" style="background-color: #C42128; margin-left: 0.5rem; margin-right: 0.5rem; width: calc(50% - 1.0rem); ">
+                <section class="row" style="background-color: white; border: 10px; border-color: #ad2ff7; border-style: solid; padding: 0.5em; margin-bottom: 5.0em;">
+                        <header class="hover-button" id="MENS-BUTTON" onclick="showMen()" style="background-color: #ad2ff7; margin-left: 0.5rem; margin-right: 0.5rem;  ">
                             <h3 style="margin-bottom: 0;">Men&#8217;s Basketball</h3>
                             <p id="MENS-SUBTITLE" class="basketball-guide-2019-button-subtitle">Selected</p>
                         </header>
                     
-                        <header class="hover-button" id="WOMENS-BUTTON" onclick="showWomen()" style="background-color: #666666; margin-left: 0.5rem; margin-right: 0.5rem; width: calc(50% - 1.0rem); ">
+                        <header class="hover-button" id="WOMENS-BUTTON" onclick="showWomen()" style="background-color: #666666; margin-left: 0.5rem; margin-right: 0.5rem;  ">
                             <h3 style="margin-bottom: 0;">Women&#8217;s Basketball</h3>
                             <p id="WOMENS-SUBTITLE" class="basketball-guide-2019-button-subtitle">Tap to 6 View Posts</p>
                         </header>
@@ -754,7 +828,7 @@ Click the help icon above to learn more.
                     
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo1.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Colonials lack clear option for go-to scorer</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -762,15 +836,15 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo2.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
-                            <h4 class="basketball-guide-2019-story-title">Transfers look to change college career trajectory at GW</h4>
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
+                            <h4 class="basketball-guide-2019-story-title">Transfers look to change college career trajectory</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
                         </div>
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo5.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Joseph emphasizes same high-speed play</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -778,7 +852,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo6.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Rookies use athleticism to overcome inexperience</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -786,7 +860,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo7.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Makeshift interior provides challenge</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -794,7 +868,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo8.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Sophomore guards exhibit opposite styles</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -807,7 +881,7 @@ Click the help icon above to learn more.
 
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo3.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Bautista tries to set the tone for the future of women’s basketball in final year</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -815,7 +889,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo4.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Colonials maintain defensive prowess while redefining offensive strategy</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -823,7 +897,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo9.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Women’s basketball struggles with lack of point guard depth</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -831,7 +905,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo10.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Senior duo guides <br/>young roster</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -839,7 +913,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo11.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Sophomore forward finds commanding presence on the court</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -847,7 +921,7 @@ Click the help icon above to learn more.
                     </a>
                     <a class="story-box" href="https://www.gwhatchet.com/?p=1070693">
                         <img src="./demo12.png">
-                        <div style="background-color: #C42128; padding-bottom: 0.6em; padding-top: 1em;">
+                        <div class="backgroundBox" style="background-color: #ad2ff7; padding-bottom: 0.6em; padding-top: 1em;">
                             <h4 class="basketball-guide-2019-story-title">Freshmen boost height for women’s basketball <br/>roster</h4>
                             <p class="basketball-guide-2019-story-excerpt">For the first time in at least 21 years, men’s basketball enters the season without a returning player who averaged double-digit points.</p>
                             <p class="basketball-guide-2019-story-author">By Kate Hauser</p>
@@ -859,13 +933,10 @@ Click the help icon above to learn more.
             <a href="https://www.gwhatchet.com/?p=1070813">
                 <p class="read-button"><span class="read-background" style="font-size: 1.5rem">Read the Culture section&#8217;s stories for fans</span></p>
             </a>
-            <a href="https://www.gwhatchet.com/?p=1071226">
-                <p class="read-button"><span class="read-background" style="font-size: 1.5rem">Listen to this week&#8217;s podcast</span></p>
             </a>
-            </a>
-            <a href="https://www.gwhatchet.com/?p=1071264">
+            <a style="margin-bottom: 0.5em;" href="https://www.gwhatchet.com/?p=1071264">
                 <p class="read-button"><span class="read-background" style="font-size: 1.5rem">Watch our player introduction videos</span></p>
-            </a>
+            </a >
         </div>
     </div>
     <!-- /primary-container -->
